@@ -1,0 +1,338 @@
+/*------------------------------------------------------------------
+Modern E-Commerce Theme - Color Overrides
+Created: December 2025
+Color Palette:
+- Primary Blue: #2563EB
+- Primary Dark: #1E40AF  
+- Secondary Green: #10B981
+- Accent Amber: #F59E0B
+- Dark Text: #1F2937
+- Light Text: #6B7280
+- Background: #F9FAFB
+- White: #FFFFFF
+-------------------------------------------------------------------*/
+
+/* Global Body and Background */
+body {
+    background-color: #F9FAFB;
+    color: #1F2937;
+}
+
+/* Primary Buttons */
+.btn-primary, 
+.size2, 
+.flex-c-m.bg3,
+.stext1-btn-1 {
+    background-color: #2563EB !important;
+    border-color: #2563EB !important;
+    color: white !important;
+}
+
+.btn-primary:hover,
+.size2:hover,
+.flex-c-m.bg3:hover {
+    background-color: #1E40AF !important;
+    border-color: #1E40AF !important;
+}
+
+/* Secondary Buttons */
+.btn-secondary {
+    background-color: #10B981 !important;
+    border-color: #10B981 !important;
+}
+
+.btn-secondary:hover {
+    background-color: #059669 !important;
+}
+
+/* Links */
+a {
+    color: #6B7280;
+}
+
+a:hover {
+    color: #2563EB;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6,
+.m-text1, .m-text2, .m-text5, .m-text12 {
+    color: #1F2937 !important;
+}
+
+/* Text Elements */
+p, .s-text1, .s-text2, .s-text3 {
+    color: #6B7280;
+}
+
+/* Background Variants */
+.bgwhite, .bg0 {
+    background-color: #FFFFFF !important;
+}
+
+.bg1, .bg5 {
+    background-color: #F9FAFB !important;
+}
+
+.bg2 {
+    background-color: #1F2937 !important;
+}
+
+.bg3 {
+    background-color: #2563EB !important;
+}
+
+/* Product Cards */
+.block2-txt .block2-name {
+    color: #1F2937 !important;
+}
+
+.block2-price, .m-text6 {
+    color: #1F2937 !important;
+}
+
+.block2-newprice, .m-text8 {
+    color: #F59E0B !important;
+}
+
+.block2-oldprice, .m-text7 {
+    color: #9CA3AF !important;
+    text-decoration: line-through;
+}
+
+/* Labels and Badges */
+.block2-labelsale::before {
+    background-color: #F59E0B !important;
+}
+
+.block2-labelnew::before {
+    background-color: #2563EB !important;
+}
+
+.block2-labelpromotion::before {
+    background-color: #10B981 !important;
+}
+
+/* Navigation */
+.menu a,
+.main_menu > li > a {
+    color: #1F2937 !important;
+}
+
+.menu a:hover,
+.main_menu > li:hover > a {
+    color: #2563EB !important;
+    border-bottom-color: #2563EB !important;
+}
+
+.sub_menu {
+    background-color: #1F2937 !important;
+}
+
+.sub_menu > li:hover > a {
+    color: #2563EB !important;
+}
+
+/* Shopping Cart Badge */
+.header-icons-noti {
+    background-color: #EF4444 !important;
+}
+
+/* Hover Effects */
+.hov1:hover,
+.hov-img-zoom:hover .hov1 {
+    background-color: #2563EB !important;
+    color: white !important;
+}
+
+/* Forms and Inputs */
+.form-control,
+.stext3,
+.cl2 {
+    border-color: #D1D5DB !important;
+    color: #1F2937 !important;
+}
+
+.form-control:focus {
+    border-color: #2563EB !important;
+    box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.25) !important;
+}
+
+/* Borders */
+.bo1, .border1 {
+    border-color: #E5E7EB !important;
+}
+
+.bo2, .border2 {
+    border-color: #D1D5DB !important;
+}
+
+/* Footer */
+footer,
+.bg2 {
+    background-color: #1F2937 !important;
+    color: #F9FAFB !important;
+}
+
+footer a {
+    color: #D1D5DB !important;
+}
+
+footer a:hover {
+    color: #2563EB !important;
+}
+
+/* Shipping Section */
+.shipping {
+    background-color: #FFFFFF !important;
+}
+
+.shipping .m-text12 {
+    color: #1F2937 !important;
+}
+
+/* Slider Controls */
+.arrow-slick1,
+.arrow-slick2 {
+    background-color: #1E40AF !important;
+    opacity: 0.9;
+}
+
+.arrow-slick1:hover,
+.arrow-slick2:hover {
+    background-color: #2563EB !important;
+    opacity: 1;
+}
+
+/* Success/Error Messages */
+.alert-success {
+    background-color: #D1FAE5 !important;
+    border-color: #10B981 !important;
+    color: #065F46 !important;
+}
+
+.alert-info {
+    background-color: #DBEAFE !important;
+    border-color: #2563EB !important;
+    color: #1E40AF !important;
+}
+
+.alert-warning {
+    background-color: #FEF3C7 !important;
+    border-color: #F59E0B !important;
+    color: #92400E !important;
+}
+
+.alert-danger {
+    background-color: #FEE2E2 !important;
+    border-color: #EF4444 !important;
+    color: #991B1B !important;
+}
+
+/* Tables */
+table thead th {
+    background-color: #F9FAFB !important;
+    color: #1F2937 !important;
+    border-color: #E5E7EB !important;
+}
+
+table tbody td {
+    color: #1F2937 !important;
+    border-color: #E5E7EB !important;
+}
+
+table tbody tr:hover {
+    background-color: #F9FAFB !important;
+}
+
+/* Pagination */
+.pagination .page-link {
+    color: #2563EB !important;
+    border-color: #E5E7EB !important;
+}
+
+.pagination .page-link:hover {
+    background-color: #EFF6FF !important;
+    color: #1E40AF !important;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #2563EB !important;
+    border-color: #2563EB !important;
+}
+
+/* Wishlist Heart Icon */
+.js-addwish-b2,
+.js-addwish-detail {
+    color: #6B7280;
+}
+
+.js-addwish-b2:hover,
+.js-addwish-detail:hover,
+.js-addwish-b2.js-addedwish-b2,
+.js-addwish-detail.js-addedwish-detail {
+    color: #F59E0B !important;
+}
+
+/* Ratings/Stars */
+.star-rating,
+.rating i {
+    color: #FBBF24 !important;
+}
+
+/* Loading Animation */
+[data-loader='ball-scale'] {
+    background-color: #2563EB !important;
+}
+
+/* Back to Top Button */
+.btn-back-to-top {
+    background-color: #1E40AF !important;
+    opacity: 0.9;
+}
+
+.btn-back-to-top:hover {
+    background-color: #2563EB !important;
+    opacity: 1;
+}
+
+/* Custom Scrollbar (Webkit Browsers) */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #F9FAFB;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2563EB;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #1E40AF;
+}
+
+/* Social Media Icons */
+.topbar-social-item,
+.social-link {
+    color: #6B7280 !important;
+}
+
+.topbar-social-item:hover,
+.social-link:hover {
+    color: #2563EB !important;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .topbar {
+        background-color: #F9FAFB !important;
+    }
+    
+    .wrap_header_mobile {
+        background-color: #FFFFFF !important;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+}
