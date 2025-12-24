@@ -118,9 +118,7 @@ For detailed MySQL setup and troubleshooting, see [MYSQL_SETUP.md](MYSQL_SETUP.m
 ```
 
 **Use `pip install -r requirements.txt` instead for compatible versions.**
-# Demo
 
-Live demo available at: http://djangoecommerce.pythonanywhere.com
 
 ## Features
 
